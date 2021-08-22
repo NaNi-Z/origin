@@ -7,4 +7,5 @@
 #
 FROM centos:7
 
+RUN rm -fr /etc/yum.repos.d/*
 COPY *.repo /etc/yum.repos.d/
